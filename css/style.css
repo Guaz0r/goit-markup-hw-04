@@ -115,7 +115,7 @@ body {
   color: var(--main-brandcolor);
   padding: 24px 0;
   position: relative;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
@@ -157,7 +157,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-textcolor);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -334,7 +334,7 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--main-brandcolor);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-members {
@@ -449,7 +449,8 @@ body {
 }
 
 .customers-point:hover,
-.customers-point:focus {
+.customers-point:focus,
+.customers-point:active {
   color: var(--hover-color);
   border-color: var(--hover-color);
 }
@@ -477,7 +478,7 @@ body {
   max-width: 264px;
 }
 
-.footer-text1 {
+.footer-media {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -624,7 +625,7 @@ body {
   top: 0;
   font-size: 16px;
   line-height: 1.5;
-  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--main-backgroundcolor);
   background-color: var(--logo-buttonscolor);
   padding: 40px 32px;
@@ -674,8 +675,7 @@ body {
   width: 408px;
   min-height: 584px;
   background: var(--modal-backgroundcolor);
-  box-shadow: зі значенням 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
