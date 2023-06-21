@@ -532,6 +532,7 @@ body {
   justify-content: center;
   border-radius: 50%;
   background-color: var(--logo-buttonscolor);
+  background-color: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /**
